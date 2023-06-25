@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "ZMC",
+  "version": "1.0",
+  "description": "The ZMC (Zoom Marathon Challenge) Extension is an open source Chrome extension designed to enhance English communication and soft skills development. It provides participants of the Zoom Marathon Challenge in Bharat with daily topic suggestions for recording short videos on Zoom.",
+  "permissions": ["tabs"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "./assets/icon18.png",
+      "48": "./assets/icon48.png",
+      "128": "./assets/icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "./script/background.js"
+  }
+}
